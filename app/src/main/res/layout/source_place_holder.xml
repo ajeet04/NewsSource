@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    tools:background="@android:color/white"
+    tools:ignore="RtlSymmetry">
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/lang"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:alpha="0.30"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:background="@color/grey" />
+
+        <View
+            android:id="@+id/cont"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+          android:background="@color/grey"
+            android:gravity="center"
+          />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/_name"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+           android:background="@color/grey" />
+
+        <View
+            android:id="@+id/s_desc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+         android:background="@color/grey"
+          />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/grey"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:id="@+id/cardView"
+    app:cardCornerRadius="2dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:cardElevation="5dp">
+<RelativeLayout
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+            android:id="@+id/n_ame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="India"
+            android:alpha="0.30"
+           android:gravity="center"
+
+            android:ellipsize="end"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:checked="false"
+        android:buttonTint="@color/black_trans80"
+        android:layout_marginBottom="0dp" />
+</RelativeLayout>
+    </android.support.v7.widget.CardView>
+
